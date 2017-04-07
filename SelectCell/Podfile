@@ -1,0 +1,11 @@
+target 'SelectCell' do
+
+  use_frameworks!
+
+  target 'SelectCellUITests' do
+    inherit! :search_paths
+
+    pod 'AutoMate'
+  end
+
+end
