@@ -43,7 +43,6 @@ extension ViewController: UITableViewDataSource {
         }
 
         myCell.titleLabel.text = data[indexPath.row]
-        myCell.setSelected(true, animated: false)
         return myCell
     }
 }
